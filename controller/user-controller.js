@@ -7,9 +7,9 @@ import UserModal from "../model/User.js";
 const secret = "youtube";
 
 export const login = async (req, res) => {
-  // console.log("login called")
+  console.log("login called")
   const { email, password } = req.body;
-  // console.log(req.body);
+  console.log(req.body);
 
   try {
     

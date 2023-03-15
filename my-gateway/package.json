@@ -1,0 +1,13 @@
+{
+  "name": "my-gateway",
+  "description": "Express Gateway Instance Bootstraped from Command Line",
+  "repository": {},
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express-gateway": "^1.16.11",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
